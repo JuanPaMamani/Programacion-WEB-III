@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Información</title>
+    <title>Layout - Una Sola Columna</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; text-align: center; }
+        header, footer { background: #333; color: white; padding: 20px; }
+        main { padding: 20px; }
+    </style>
 </head>
 <body>
-    <h1>Nombre Completo</h1>
-    <p>Juan Patricio Mamani Antezana</p>
-    
-    <h2>Enlace a mi GitHub</h2>
-    <p><a href="https://github.com/JuanPaMamani" target="_blank">Mi GitHub</a></p>
+    <header>Encabezado</header>
+    <main>Contenido Principal</main>
+    <footer>Pie de Página</footer>
 </body>
 </html>
