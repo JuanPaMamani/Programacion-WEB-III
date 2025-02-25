@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout de dos columnas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .main-content {
+            flex: 3;
+            padding: 20px;
+            background-color: #fff;
+        }
+        .sidebar {
+            flex: 1;
+            padding: 20px;
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main-content">
+            <h1>Contenido Principal</h1>
+            <p>Este es el contenido principal del layout de dos columnas.</p>
+        </div>
+        <div class="sidebar">
+            <h2>Barra Lateral</h2>
+            <p>Este es el contenido de la barra lateral.</p>
+        </div>
+    </div>
+</body>
+</html>

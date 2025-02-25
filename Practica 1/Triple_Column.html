@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout de tres columnas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .column {
+            flex: 1;
+            padding: 20px;
+            background-color: #fff;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="column">
+            <h2>Columna 1</h2>
+            <p>Contenido de la primera columna.</p>
+        </div>
+        <div class="column">
+            <h2>Columna 2</h2>
+            <p>Contenido de la segunda columna.</p>
+        </div>
+        <div class="column">
+            <h2>Columna 3</h2>
+            <p>Contenido de la tercera columna.</p>
+        </div>
+    </div>
+</body>
+</html>
